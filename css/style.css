@@ -1,23 +1,19 @@
 body {
-  background-color: grey;
-}
+  background-color: #76ffb3; }
 
 .nav {
   justify-content: center;
-  margin: 10px auto;
-}
-.nav .nav-item a {
-  color: black;
-}
-.nav .nav-item a:hover {
-  color: white;
-}
+  margin: 10px auto; }
+  .nav .nav-item a {
+    color: #fdff78; }
+    .nav .nav-item a:hover {
+      color: #ff6ffb; }
 
 .stream-contain {
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1500px;
-}
-.stream-contain .row .stream {
-  flex-grow: 2;
-}
+  max-width: 1500px; }
+  .stream-contain .row .stream {
+    flex-grow: 2; }
+
+/*# sourceMappingURL=style.css.map */
