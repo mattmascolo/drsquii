@@ -1,0 +1,23 @@
+body {
+  background-color: grey;
+}
+.nav {
+  justify-content: center;
+  margin: 10px auto;
+  .nav-item {
+    a {
+      color: black;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+.stream-contain {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1500px;
+  .row .stream {
+    flex-grow: 2;
+  }
+}
